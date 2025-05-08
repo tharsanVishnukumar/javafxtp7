@@ -1,0 +1,36 @@
+/* Style général pour la scène */
+.root {
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-background-color: #f4f4f4;
+}
+
+/* Style de la TableView */
+.table-view {
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1px;
+    -fx-table-cell-border-color: #dddddd;
+    -fx-font-size: 14px;
+}
+
+/* Style des colonnes */
+.table-column {
+    -fx-alignment: CENTER_LEFT;
+}
+
+/* Style des en-têtes */
+.table-view .column-header-background {
+    -fx-background-color: #e0e0e0;
+}
+
+/* Style des lignes sélectionnées */
+.table-row-cell:filled:selected {
+    -fx-background-color: #b3d9ff;
+}
+
+/* Style du bouton */
+.button {
+    -fx-background-color: #336699;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
